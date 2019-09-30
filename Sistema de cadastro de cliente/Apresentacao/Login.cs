@@ -21,5 +21,17 @@ namespace Sistema_de_cadastro_de_cliente
         {
 
         }
+
+        private void btnConectar_Click(object sender, EventArgs e)
+        {
+            if ((txtNome.Text == "admin") && (txtSenha.Text == "123"))
+            {
+
+            }
+            else
+            {
+
+            }
+        }
     }
 }
