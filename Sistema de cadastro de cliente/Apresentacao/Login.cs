@@ -16,5 +16,10 @@ namespace Sistema_de_cadastro_de_cliente
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
