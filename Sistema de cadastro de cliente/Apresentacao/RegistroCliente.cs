@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Sistema_de_cadastro_de_cliente.Apresentacao
 {
-    public partial class Menu : Form
+    public partial class Registros : Form
     {
-        public Menu()
+        public Registros()
         {
             InitializeComponent();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

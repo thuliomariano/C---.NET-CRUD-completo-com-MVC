@@ -73,6 +73,26 @@ namespace Sistema_de_cadastro_de_cliente.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doc_document_copy_file_blue_round_512 {
+            get {
+                object obj = ResourceManager.GetObject("doc-document-copy-file-blue-round-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap emergency_exit_98585_960_720 {
+            get {
+                object obj = ResourceManager.GetObject("emergency-exit-98585_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_login {
             get {
                 object obj = ResourceManager.GetObject("icon_login", resourceCulture);
@@ -86,6 +106,16 @@ namespace Sistema_de_cadastro_de_cliente.Properties {
         internal static System.Drawing.Bitmap lasertechlogo {
             get {
                 object obj = ResourceManager.GetObject("lasertechlogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdf {
+            get {
+                object obj = ResourceManager.GetObject("pdf", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
