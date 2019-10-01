@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistema_de_cadastro_de_cliente.DAL
 {
-    class Conexao
+    public class Conexao
     {
     }
 }

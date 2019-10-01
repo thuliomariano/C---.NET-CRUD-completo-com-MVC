@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.btnDeletar = new System.Windows.Forms.Button();
+            this.btnAtualizar = new System.Windows.Forms.Button();
+            this.btnBuscarPorId = new System.Windows.Forms.Button();
             this.lblNome = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.lblID = new System.Windows.Forms.Label();
-            this.txt = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtDataDeNascimento = new System.Windows.Forms.MaskedTextBox();
+            this.txtCpf = new System.Windows.Forms.MaskedTextBox();
+            this.txtRg = new System.Windows.Forms.MaskedTextBox();
+            this.txtSobreNome = new System.Windows.Forms.TextBox();
             this.lblSobreNome = new System.Windows.Forms.Label();
             this.lblDataDeNascimento = new System.Windows.Forms.Label();
             this.lblCpf = new System.Windows.Forms.Label();
@@ -55,53 +55,53 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.BtnListar = new System.Windows.Forms.Button();
+            this.txtBuscarPorTudo = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.BtnBuscar = new System.Windows.Forms.Button();
+            this.btnTxt = new System.Windows.Forms.Button();
+            this.btnPdf = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCadastrar
             // 
-            this.button1.Location = new System.Drawing.Point(15, 270);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Cadastrar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Location = new System.Drawing.Point(15, 270);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadastrar.TabIndex = 0;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnDeletar
             // 
-            this.button2.Location = new System.Drawing.Point(96, 270);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Deletar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnDeletar.Location = new System.Drawing.Point(96, 270);
+            this.btnDeletar.Name = "btnDeletar";
+            this.btnDeletar.Size = new System.Drawing.Size(75, 23);
+            this.btnDeletar.TabIndex = 1;
+            this.btnDeletar.Text = "Deletar";
+            this.btnDeletar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnAtualizar
             // 
-            this.button3.Location = new System.Drawing.Point(177, 270);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Atualizar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Location = new System.Drawing.Point(177, 270);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnAtualizar.TabIndex = 2;
+            this.btnAtualizar.Text = "Atualizar";
+            this.btnAtualizar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnBuscarPorId
             // 
-            this.button4.Location = new System.Drawing.Point(93, 33);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnBuscarPorId.Location = new System.Drawing.Point(93, 33);
+            this.btnBuscarPorId.Name = "btnBuscarPorId";
+            this.btnBuscarPorId.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarPorId.TabIndex = 3;
+            this.btnBuscarPorId.Text = "Buscar";
+            this.btnBuscarPorId.UseVisualStyleBackColor = true;
             // 
             // lblNome
             // 
@@ -112,12 +112,12 @@
             this.lblNome.TabIndex = 4;
             this.lblNome.Text = "Nome";
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(126, 20);
-            this.textBox1.TabIndex = 5;
+            this.txtNome.Location = new System.Drawing.Point(12, 75);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(126, 20);
+            this.txtNome.TabIndex = 5;
             // 
             // lblID
             // 
@@ -128,29 +128,29 @@
             this.lblID.TabIndex = 6;
             this.lblID.Text = "ID";
             // 
-            // txt
+            // txtId
             // 
-            this.txt.Location = new System.Drawing.Point(12, 36);
-            this.txt.Name = "txt";
-            this.txt.Size = new System.Drawing.Size(59, 20);
-            this.txt.TabIndex = 7;
+            this.txtId.Location = new System.Drawing.Point(12, 36);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(59, 20);
+            this.txtId.TabIndex = 7;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.maskedTextBox3);
-            this.groupBox1.Controls.Add(this.maskedTextBox2);
-            this.groupBox1.Controls.Add(this.maskedTextBox1);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.txtDataDeNascimento);
+            this.groupBox1.Controls.Add(this.txtCpf);
+            this.groupBox1.Controls.Add(this.txtRg);
+            this.groupBox1.Controls.Add(this.txtSobreNome);
             this.groupBox1.Controls.Add(this.lblSobreNome);
             this.groupBox1.Controls.Add(this.lblDataDeNascimento);
             this.groupBox1.Controls.Add(this.lblCpf);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.btnBuscarPorId);
+            this.groupBox1.Controls.Add(this.btnAtualizar);
+            this.groupBox1.Controls.Add(this.btnDeletar);
             this.groupBox1.Controls.Add(this.lblRg);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.txt);
+            this.groupBox1.Controls.Add(this.btnCadastrar);
+            this.groupBox1.Controls.Add(this.txtNome);
+            this.groupBox1.Controls.Add(this.txtId);
             this.groupBox1.Controls.Add(this.lblNome);
             this.groupBox1.Controls.Add(this.lblID);
             this.groupBox1.Location = new System.Drawing.Point(27, 106);
@@ -161,33 +161,37 @@
             this.groupBox1.Text = "Cliente";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // maskedTextBox3
+            // txtDataDeNascimento
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(14, 235);
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox3.TabIndex = 18;
+            this.txtDataDeNascimento.Location = new System.Drawing.Point(14, 235);
+            this.txtDataDeNascimento.Mask = "00/00/0000";
+            this.txtDataDeNascimento.Name = "txtDataDeNascimento";
+            this.txtDataDeNascimento.Size = new System.Drawing.Size(100, 20);
+            this.txtDataDeNascimento.TabIndex = 18;
+            this.txtDataDeNascimento.ValidatingType = typeof(System.DateTime);
             // 
-            // maskedTextBox2
+            // txtCpf
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(12, 196);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox2.TabIndex = 17;
+            this.txtCpf.Location = new System.Drawing.Point(12, 196);
+            this.txtCpf.Mask = "000-000-000-00";
+            this.txtCpf.Name = "txtCpf";
+            this.txtCpf.Size = new System.Drawing.Size(100, 20);
+            this.txtCpf.TabIndex = 17;
             // 
-            // maskedTextBox1
+            // txtRg
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(12, 157);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox1.TabIndex = 16;
+            this.txtRg.Location = new System.Drawing.Point(12, 157);
+            this.txtRg.Mask = "00-000-000-0";
+            this.txtRg.Name = "txtRg";
+            this.txtRg.Size = new System.Drawing.Size(100, 20);
+            this.txtRg.TabIndex = 16;
             // 
-            // textBox6
+            // txtSobreNome
             // 
-            this.textBox6.Location = new System.Drawing.Point(12, 116);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(240, 20);
-            this.textBox6.TabIndex = 15;
+            this.txtSobreNome.Location = new System.Drawing.Point(12, 116);
+            this.txtSobreNome.Name = "txtSobreNome";
+            this.txtSobreNome.Size = new System.Drawing.Size(240, 20);
+            this.txtSobreNome.TabIndex = 15;
             // 
             // lblSobreNome
             // 
@@ -306,21 +310,21 @@
             this.columnHeader6.Text = "Data de nascimento";
             this.columnHeader6.Width = 110;
             // 
-            // button5
+            // BtnListar
             // 
-            this.button5.Location = new System.Drawing.Point(316, 110);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "Tudo";
-            this.button5.UseVisualStyleBackColor = true;
+            this.BtnListar.Location = new System.Drawing.Point(316, 110);
+            this.BtnListar.Name = "BtnListar";
+            this.BtnListar.Size = new System.Drawing.Size(75, 23);
+            this.BtnListar.TabIndex = 11;
+            this.BtnListar.Text = "Tudo";
+            this.BtnListar.UseVisualStyleBackColor = true;
             // 
-            // textBox7
+            // txtBuscarPorTudo
             // 
-            this.textBox7.Location = new System.Drawing.Point(411, 110);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(283, 20);
-            this.textBox7.TabIndex = 17;
+            this.txtBuscarPorTudo.Location = new System.Drawing.Point(411, 110);
+            this.txtBuscarPorTudo.Name = "txtBuscarPorTudo";
+            this.txtBuscarPorTudo.Size = new System.Drawing.Size(283, 20);
+            this.txtBuscarPorTudo.TabIndex = 17;
             // 
             // label7
             // 
@@ -331,58 +335,58 @@
             this.label7.TabIndex = 16;
             this.label7.Text = "Pesquisar";
             // 
-            // button6
+            // BtnBuscar
             // 
-            this.button6.Location = new System.Drawing.Point(723, 107);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "Buscar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Location = new System.Drawing.Point(723, 107);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.BtnBuscar.TabIndex = 16;
+            this.BtnBuscar.Text = "Buscar";
+            this.BtnBuscar.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnTxt
             // 
-            this.button9.BackgroundImage = global::Sistema_de_cadastro_de_cliente.Properties.Resources.doc_document_copy_file_blue_round_512;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Location = new System.Drawing.Point(88, 420);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(89, 74);
-            this.button9.TabIndex = 21;
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnTxt.BackgroundImage = global::Sistema_de_cadastro_de_cliente.Properties.Resources.doc_document_copy_file_blue_round_512;
+            this.btnTxt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnTxt.Location = new System.Drawing.Point(88, 420);
+            this.btnTxt.Name = "btnTxt";
+            this.btnTxt.Size = new System.Drawing.Size(89, 74);
+            this.btnTxt.TabIndex = 21;
+            this.btnTxt.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnPdf
             // 
-            this.button8.BackgroundImage = global::Sistema_de_cadastro_de_cliente.Properties.Resources.pdf;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Location = new System.Drawing.Point(197, 420);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(89, 74);
-            this.button8.TabIndex = 20;
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnPdf.BackgroundImage = global::Sistema_de_cadastro_de_cliente.Properties.Resources.pdf;
+            this.btnPdf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPdf.Location = new System.Drawing.Point(197, 420);
+            this.btnPdf.Name = "btnPdf";
+            this.btnPdf.Size = new System.Drawing.Size(89, 74);
+            this.btnPdf.TabIndex = 20;
+            this.btnPdf.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnSair
             // 
-            this.button7.BackgroundImage = global::Sistema_de_cadastro_de_cliente.Properties.Resources.emergency_exit_98585_960_720;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Location = new System.Drawing.Point(777, 482);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(73, 65);
-            this.button7.TabIndex = 19;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnSair.BackgroundImage = global::Sistema_de_cadastro_de_cliente.Properties.Resources.emergency_exit_98585_960_720;
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSair.Location = new System.Drawing.Point(777, 482);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(73, 65);
+            this.btnSair.TabIndex = 19;
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.button7_Click);
             // 
             // Registros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(866, 555);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.btnTxt);
+            this.Controls.Add(this.btnPdf);
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.BtnBuscar);
+            this.Controls.Add(this.txtBuscarPorTudo);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.BtnListar);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
@@ -400,20 +404,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button btnDeletar;
+        private System.Windows.Forms.Button btnAtualizar;
+        private System.Windows.Forms.Button btnBuscarPorId;
         private System.Windows.Forms.Label lblNome;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblID;
-        private System.Windows.Forms.TextBox txt;
+        private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lblDataDeNascimento;
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.Label lblRg;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtSobreNome;
         private System.Windows.Forms.Label lblSobreNome;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ColumnHeader columnHeader1;
@@ -422,16 +426,16 @@
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Button BtnListar;
+        private System.Windows.Forms.TextBox txtBuscarPorTudo;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button BtnBuscar;
+        private System.Windows.Forms.MaskedTextBox txtDataDeNascimento;
+        private System.Windows.Forms.MaskedTextBox txtCpf;
+        private System.Windows.Forms.MaskedTextBox txtRg;
+        private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.Button btnPdf;
+        private System.Windows.Forms.Button btnTxt;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
