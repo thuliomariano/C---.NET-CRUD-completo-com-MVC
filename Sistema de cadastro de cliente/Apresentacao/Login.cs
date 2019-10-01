@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Sistema_de_cadastro_de_cliente.Apresentacao;
+using Sistema_de_cadastro_de_cliente.DAL;
+using Sistema_de_cadastro_de_cliente.Modelo;
 
 
 namespace Sistema_de_cadastro_de_cliente
@@ -27,12 +30,34 @@ namespace Sistema_de_cadastro_de_cliente
         {
             if ((txtNome.Text == "admin") && (txtSenha.Text == "123"))
             {
-               
+                Registros registro = new Registros();
+                registro.ShowDialog();
+                
             }
             else
             {
                 MessageBox.Show("Tente novamente", "Usuario ou senha está incorreto!");
             }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if ((txtNome.Text == "admin") && (txtSenha.Text == "123"))
+            {
+                Registros registro = new Registros();
+                registro.ShowDialog();
+
+            }
+            else
+            {
+                MessageBox.Show("Tente novamente", "Usuario ou senha está incorreto!");
+            }
+
         }
     }
 }

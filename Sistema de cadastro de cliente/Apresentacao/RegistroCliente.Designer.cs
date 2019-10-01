@@ -75,6 +75,7 @@
             this.btnCadastrar.TabIndex = 0;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnDeletar
             // 
@@ -164,11 +165,10 @@
             // txtDataDeNascimento
             // 
             this.txtDataDeNascimento.Location = new System.Drawing.Point(14, 235);
-            this.txtDataDeNascimento.Mask = "00/00/0000";
+            this.txtDataDeNascimento.Mask = "00-00-0000";
             this.txtDataDeNascimento.Name = "txtDataDeNascimento";
             this.txtDataDeNascimento.Size = new System.Drawing.Size(100, 20);
             this.txtDataDeNascimento.TabIndex = 18;
-            this.txtDataDeNascimento.ValidatingType = typeof(System.DateTime);
             // 
             // txtCpf
             // 
@@ -231,7 +231,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -243,7 +243,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Navy;
+            this.label8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label8.Font = new System.Drawing.Font("Perpetua Titling MT", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Control;
             this.label8.Location = new System.Drawing.Point(535, 30);
@@ -254,7 +254,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Sistema_de_cadastro_de_cliente.Properties.Resources.lasertechlogo;
+            this.pictureBox2.Image = global::Sistema_de_cadastro_de_cliente.Properties.Resources.LTI_Logo;
             this.pictureBox2.Location = new System.Drawing.Point(42, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(321, 91);
@@ -392,6 +392,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Registros";
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.Registros_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);

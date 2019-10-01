@@ -112,5 +112,8 @@
   <ItemGroup>
     <None Include="Resources\doc-document-copy-file-blue-round-512.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LTI_Logo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

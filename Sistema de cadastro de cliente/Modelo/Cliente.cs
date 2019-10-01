@@ -15,7 +15,7 @@ namespace Sistema_de_cadastro_de_cliente.Modelo
         private long cpf;
         private DateTime dataDeNascimento;
 
-        public int Id { get => id;}   // não é possivel modificar o ID, somente ler
+        public int Id { get => id; set => id = value; }   
         public string Nome { get => nome; set => nome = value; }
         public string SobreNome { get => sobreNome; set => sobreNome = value; }
         public long Rg { get => rg; set => rg = value; }
