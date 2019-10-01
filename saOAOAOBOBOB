@@ -1,0 +1,66 @@
+[33mcommit b96889a0d341a31f2afb3d6b8cabcf2b21381666[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 08:53:19 2019 -0300
+
+    Atribuindo atributos na classe Pessoa
+
+[33mcommit 43809e3e99a22d987aaf96c7c14048693df789b4[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 08:36:28 2019 -0300
+
+    Atribuido valores a clase conexao
+
+[33mcommit 597a021e37d6b4d68992691d9883b3033c673898[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 07:56:55 2019 -0300
+
+    Atribuição de regras de negocio para o name no form cadastro
+
+[33mcommit 016bbc2ac7e7195f364a0d5a3cc6682847e5ef56[m
+Merge: f10f5da c4b3928
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 07:48:59 2019 -0300
+
+    Merge branch 'master' of https://github.com/thuliomariano/C---.NET-CRUD-completo-com-MVC
+
+[33mcommit f10f5da2fe23a8bcd501aa450ced8669a798936e[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 07:47:46 2019 -0300
+
+    Modificações do front end no form cadastro
+
+[33mcommit c4b39288466a3a4237bfb7b6d8b00ab503d3df39[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 07:36:49 2019 -0300
+
+    Alterando designer do front usuario
+
+[33mcommit 13e8ffa4acdc299df15e40353fc2b276289a0d79[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 17:48:02 2019 -0300
+
+    Desenvolvendo o front-end do form cadastro de Cliente
+
+[33mcommit 5d921a8edc207987993fc44af2a9405e02967a18[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 13:35:35 2019 -0300
+
+    Criando as camadas MVC
+
+[33mcommit bcde695618f44e132aed356547ea0da75705b61d[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 13:18:02 2019 -0300
+
+    Criando o front-end do form aplication login
+
+[33mcommit 5cf7b6a4c689415ae647dde27a2fd4bfbaebb933[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 09:59:22 2019 -0300
+
+    Adicionar arquivos de projeto.
+
+[33mcommit e5cc575f21a3def26d85947d40b04465ae0ea984[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 09:59:18 2019 -0300
+
+    Adicionar .gitignore e .gitattributes.
