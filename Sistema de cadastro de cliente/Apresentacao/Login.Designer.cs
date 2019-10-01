@@ -43,9 +43,9 @@
             // 
             // btnConectar
             // 
-            this.btnConectar.Location = new System.Drawing.Point(247, 212);
+            this.btnConectar.Location = new System.Drawing.Point(82, 369);
             this.btnConectar.Name = "btnConectar";
-            this.btnConectar.Size = new System.Drawing.Size(75, 23);
+            this.btnConectar.Size = new System.Drawing.Size(96, 23);
             this.btnConectar.TabIndex = 0;
             this.btnConectar.Text = "Conectar";
             this.btnConectar.UseVisualStyleBackColor = true;
@@ -53,9 +53,9 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(374, 212);
+            this.btnCancelar.Location = new System.Drawing.Point(209, 369);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.Size = new System.Drawing.Size(96, 23);
             this.btnCancelar.TabIndex = 1;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -63,7 +63,8 @@
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(214, 144);
+            this.lblNome.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblNome.Location = new System.Drawing.Point(75, 300);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(38, 13);
             this.lblNome.TabIndex = 3;
@@ -72,7 +73,8 @@
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
-            this.lblSenha.Location = new System.Drawing.Point(214, 171);
+            this.lblSenha.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblSenha.Location = new System.Drawing.Point(75, 328);
             this.lblSenha.Name = "lblSenha";
             this.lblSenha.Size = new System.Drawing.Size(38, 13);
             this.lblSenha.TabIndex = 4;
@@ -80,24 +82,24 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(269, 136);
+            this.txtNome.Location = new System.Drawing.Point(130, 293);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(213, 20);
+            this.txtNome.Size = new System.Drawing.Size(189, 20);
             this.txtNome.TabIndex = 5;
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(269, 162);
+            this.txtSenha.Location = new System.Drawing.Point(130, 319);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(138, 20);
+            this.txtSenha.Size = new System.Drawing.Size(189, 20);
             this.txtSenha.TabIndex = 6;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Sistema_de_cadastro_de_cliente.Properties.Resources.lasertechlogo;
-            this.pictureBox2.Location = new System.Drawing.Point(198, 26);
+            this.pictureBox2.Location = new System.Drawing.Point(51, 23);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(309, 91);
+            this.pictureBox2.Size = new System.Drawing.Size(326, 115);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -105,7 +107,7 @@
             // pctUsuario
             // 
             this.pctUsuario.Image = global::Sistema_de_cadastro_de_cliente.Properties.Resources.icon_login;
-            this.pctUsuario.Location = new System.Drawing.Point(45, 39);
+            this.pctUsuario.Location = new System.Drawing.Point(143, 144);
             this.pctUsuario.Name = "pctUsuario";
             this.pctUsuario.Size = new System.Drawing.Size(132, 143);
             this.pctUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -115,7 +117,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1, 250);
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.Location = new System.Drawing.Point(1, 405);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(188, 13);
             this.label3.TabIndex = 8;
@@ -125,7 +128,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(519, 263);
+            this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.ClientSize = new System.Drawing.Size(429, 427);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.txtSenha);
