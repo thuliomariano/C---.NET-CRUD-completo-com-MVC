@@ -52,10 +52,24 @@
     <Compile Include="Apresentacao\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Apresentacao\RegistroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\RegistroCliente.Designer.cs">
+      <DependentUpon>RegistroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ClienteDAL.cs" />
+    <Compile Include="DAL\Conexao.cs" />
+    <Compile Include="Modelo\Cliente.cs" />
+    <Compile Include="Modelo\Controle.cs" />
+    <Compile Include="Modelo\Validacao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Apresentacao\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\RegistroCliente.resx">
+      <DependentUpon>RegistroCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,8 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DAL\" />
-    <Folder Include="Modelo\" />
+    <None Include="Resources\emergency-exit-98585_960_720.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\27379838530-3f1af16fc3-h_93b6.jpg" />
@@ -92,6 +105,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lasertechlogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doc-document-copy-file-blue-round-512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
