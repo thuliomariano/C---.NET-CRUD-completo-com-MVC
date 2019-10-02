@@ -49,8 +49,8 @@ namespace Sistema_de_cadastro_de_cliente
         {
             if ((txtNome.Text == "admin") && (txtSenha.Text == "123"))
             {
-                Registros registro = new Registros();
-                registro.ShowDialog();
+                MenuPrincipal menuPrincipal = new MenuPrincipal(); 
+                menuPrincipal.ShowDialog();
 
             }
             else
