@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sistema_de_cadastro_de_cliente.Apresentacao
 {
-    public partial class Financeiro : Form
+    public partial class SetorDeVendas : Form
     {
-        public Financeiro()
+        public SetorDeVendas()
         {
             InitializeComponent();
         }
