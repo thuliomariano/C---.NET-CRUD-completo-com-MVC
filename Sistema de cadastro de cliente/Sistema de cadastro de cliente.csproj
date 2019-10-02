@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Apresentacao\Financeiro.cs">
+    <Compile Include="Apresentacao\Estoque.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Apresentacao\Financeiro.Designer.cs">
-      <DependentUpon>Financeiro.cs</DependentUpon>
+    <Compile Include="Apresentacao\Estoque.Designer.cs">
+      <DependentUpon>Estoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\RegistroLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\RegistroLogin.Designer.cs">
+      <DependentUpon>RegistroLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\Vendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\Vendas.Designer.cs">
+      <DependentUpon>Vendas.cs</DependentUpon>
     </Compile>
     <Compile Include="Apresentacao\Login.cs">
       <SubType>Form</SubType>
@@ -77,8 +89,14 @@
     <Compile Include="Modelo\Validacao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Apresentacao\Financeiro.resx">
-      <DependentUpon>Financeiro.cs</DependentUpon>
+    <EmbeddedResource Include="Apresentacao\Estoque.resx">
+      <DependentUpon>Estoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\RegistroLogin.resx">
+      <DependentUpon>RegistroLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\Vendas.resx">
+      <DependentUpon>Vendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -159,6 +177,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gear-47203_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-icon-2184065_960_720.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

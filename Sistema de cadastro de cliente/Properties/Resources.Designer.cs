@@ -219,5 +219,15 @@ namespace Sistema_de_cadastro_de_cliente.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shopping_icon_2184065_960_720 {
+            get {
+                object obj = ResourceManager.GetObject("shopping-icon-2184065_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
