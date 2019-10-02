@@ -108,7 +108,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Sistema_de_cadastro_de_cliente.Properties.Resources.LTI_Logo;
-            this.pictureBox2.Location = new System.Drawing.Point(4, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(7, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(413, 115);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
