@@ -25,6 +25,10 @@ namespace Sistema_de_cadastro_de_cliente.Modelo
                 this.mesagem = clienteDAL.Cadastrar(cliente);
 
             }
+            else
+            {
+                mesagem = validacao.Mensagem;
+            }
         }
 
 

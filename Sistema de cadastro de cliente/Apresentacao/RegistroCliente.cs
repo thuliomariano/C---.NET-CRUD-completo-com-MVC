@@ -36,7 +36,7 @@ namespace Sistema_de_cadastro_de_cliente.Apresentacao
         {
             txtRg.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             txtCpf.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
-            txtDataDeNascimento.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
+            
 
             Cliente cliente = new Cliente();
             cliente.Id = Convert.ToInt16(txtId.Text);
@@ -44,11 +44,12 @@ namespace Sistema_de_cadastro_de_cliente.Apresentacao
             cliente.SobreNome = txtSobreNome.Text;
             cliente.Rg = Convert.ToInt32(txtRg);
             cliente.Cpf = Convert.ToInt32(txtCpf);
-            cliente.DataDeNascimento = Convert.ToDateTime(txtDataDeNascimento);
+            String[] data = txtDataDeNascimento.Text.Split('-');
+            cliente.DataDeNascimento = data[2] + "-" + data[1] + "-" + data[0];
 
             Controle controle = new Controle();
             controle.Cadastrar(cliente);
-            
+            MessageBox.Show(controle.Mesagem);
 
 
         }
