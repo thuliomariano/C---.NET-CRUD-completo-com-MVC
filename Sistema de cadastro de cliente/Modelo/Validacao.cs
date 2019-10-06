@@ -15,7 +15,7 @@ namespace Sistema_de_cadastro_de_cliente.Modelo
 
         public Validacao(Cliente cliente)
         {
-            mensagem = "";
+            mensagem = " ";
             if (cliente.Nome.Length > 50)
             {
                 mensagem = "Quantidades de caracteres Excede o valor maximo(50)";
@@ -24,11 +24,11 @@ namespace Sistema_de_cadastro_de_cliente.Modelo
             {
                 mensagem = "Quantidades de caracteres Excede o valor maximo(70)";
             }
-            if (cliente.Rg > 9)
+            if (Convert.ToString(cliente.Rg).Length > 9)
             {
                 mensagem = "Quantidades de valores númericos Excede o valor maximo(9)";
             }
-            if (cliente.Cpf > 11)
+            if (Convert.ToString(cliente.Cpf).Length > 11)
             {
                 mensagem = "Quantidades de valores númericos Excede o valor maximo(11)";
             }
