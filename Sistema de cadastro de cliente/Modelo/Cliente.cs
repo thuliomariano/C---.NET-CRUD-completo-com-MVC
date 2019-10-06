@@ -13,13 +13,13 @@ namespace Sistema_de_cadastro_de_cliente.Modelo
         private String sobreNome;
         private long rg;
         private long cpf;
-        private DateTime dataDeNascimento;
+        private String dataDeNascimento;
 
         public int Id { get => id; set => id = value; }   
         public string Nome { get => nome; set => nome = value; }
         public string SobreNome { get => sobreNome; set => sobreNome = value; }
         public long Rg { get => rg; set => rg = value; }
         public long Cpf { get => cpf; set => cpf = value; }
-        public DateTime DataDeNascimento { get => dataDeNascimento; set => dataDeNascimento = value; }
+        public string DataDeNascimento { get => dataDeNascimento; set => dataDeNascimento = value; }
     }
 }
