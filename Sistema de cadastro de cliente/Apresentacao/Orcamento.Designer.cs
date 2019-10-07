@@ -32,8 +32,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -79,29 +77,11 @@
             this.listView1.TabIndex = 12;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(171, 204);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(64, 34);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Cadastrar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            this.panel2.Location = new System.Drawing.Point(12, 104);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(911, 37);
-            this.panel2.TabIndex = 14;
-            // 
             // Orcamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1090, 586);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.panel1);
             this.Name = "Orcamento";
@@ -119,7 +99,5 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel2;
     }
 }
