@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Sistema_de_cadastro_de_cliente.Apresentacao
 {
-    public partial class Vendas : Form
+    public partial class Compras : Form
     {
-        public Vendas()
+        public Compras()
         {
             InitializeComponent();
-        }
-
-        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label32_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

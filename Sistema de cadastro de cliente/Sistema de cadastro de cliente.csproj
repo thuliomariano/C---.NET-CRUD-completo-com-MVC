@@ -46,17 +46,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apresentacao\Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\Compras.Designer.cs">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Apresentacao\Estoque.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Apresentacao\Estoque.Designer.cs">
       <DependentUpon>Estoque.cs</DependentUpon>
     </Compile>
+    <Compile Include="Apresentacao\Orcamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\Orcamento.Designer.cs">
+      <DependentUpon>Orcamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\OrdemDeServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\OrdemDeServico.Designer.cs">
+      <DependentUpon>OrdemDeServico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Apresentacao\RegistroLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Apresentacao\RegistroLogin.Designer.cs">
       <DependentUpon>RegistroLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\Requisicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\Requisicao.Designer.cs">
+      <DependentUpon>Requisicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\Status.Designer.cs">
+      <DependentUpon>Status.cs</DependentUpon>
     </Compile>
     <Compile Include="Apresentacao\Vendas.cs">
       <SubType>Form</SubType>
@@ -85,15 +115,34 @@
     <Compile Include="DAL\ClienteDAL.cs" />
     <Compile Include="DAL\Conexao.cs" />
     <Compile Include="Modelo\Cliente.cs" />
+    <Compile Include="Modelo\Contato.cs" />
     <Compile Include="Modelo\Controle.cs" />
+    <Compile Include="Modelo\Endereco.cs" />
+    <Compile Include="Modelo\Login.cs" />
     <Compile Include="Modelo\Validacao.cs" />
+    <Compile Include="Modelo\Vendas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Apresentacao\Compras.resx">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\Estoque.resx">
       <DependentUpon>Estoque.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\Orcamento.resx">
+      <DependentUpon>Orcamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\OrdemDeSErvico.resx">
+      <DependentUpon>OrdemDeServico.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\RegistroLogin.resx">
       <DependentUpon>RegistroLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\Requisicao.resx">
+      <DependentUpon>Requisicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\Status.resx">
+      <DependentUpon>Status.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\Vendas.resx">
       <DependentUpon>Vendas.cs</DependentUpon>
@@ -180,6 +229,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shopping-icon-2184065_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doc-document-copy-file-blue-round-5121.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

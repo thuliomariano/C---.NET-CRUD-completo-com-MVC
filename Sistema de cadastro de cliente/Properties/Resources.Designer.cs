@@ -113,6 +113,16 @@ namespace Sistema_de_cadastro_de_cliente.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doc_document_copy_file_blue_round_5121 {
+            get {
+                object obj = ResourceManager.GetObject("doc-document-copy-file-blue-round-5121", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap emergency_exit_98585_960_720 {
             get {
                 object obj = ResourceManager.GetObject("emergency-exit-98585_960_720", resourceCulture);

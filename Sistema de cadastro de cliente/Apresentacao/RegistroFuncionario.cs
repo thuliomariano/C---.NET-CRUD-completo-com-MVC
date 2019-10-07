@@ -71,5 +71,10 @@ namespace Sistema_de_cadastro_de_cliente.Apresentacao
             
             
         }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }
