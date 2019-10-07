@@ -18,17 +18,7 @@ namespace Sistema_de_cadastro_de_cliente.Modelo
 
         public void Cadastrar(Cliente cliente)
         {
-            Validacao validacao = new Validacao(cliente);
-            if (validacao.Mensagem.Equals(" "))
-            {
-                ClienteDAL clienteDAL = new ClienteDAL();
-                this.mesagem = clienteDAL.Cadastrar(cliente);
-
-            }
-            else
-            {
-                mesagem = validacao.Mensagem;
-            }
+           
         }
 
 

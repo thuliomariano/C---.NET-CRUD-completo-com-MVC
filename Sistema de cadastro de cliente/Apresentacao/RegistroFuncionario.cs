@@ -40,29 +40,7 @@ namespace Sistema_de_cadastro_de_cliente.Apresentacao
 
             Cliente cliente = new Cliente();
 
-            if (txtId.Text == "")
-            {
-                txtRg.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
-                txtCpf.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
-
-
-                cliente.Nome = txtNome.Text;
-                cliente.SobreNome = txtSobreNome.Text;
-                cliente.Rg = Convert.ToDouble(txtRg.Text);
-                cliente.Cpf = Convert.ToDouble(txtCpf.Text);
-                String[] data = txtDataDeNascimento.Text.Split('-');
-                cliente.DataDeNascimento = data[2] + "-" + data[1] + "-" + data[0];
-
-                Controle controle = new Controle();
-                controle.Cadastrar(cliente);
-                MessageBox.Show(controle.Mesagem);
-            }
-            else
-            {
-                cliente.Id = Convert.ToInt16(txtId.Text);
-
-
-            }
+          
 
         }
 
