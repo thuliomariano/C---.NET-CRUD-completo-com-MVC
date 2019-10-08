@@ -1,6 +1,6 @@
 ﻿namespace Sistema_de_cadastro_de_cliente
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -141,7 +141,7 @@
             this.pctUsuario.TabIndex = 2;
             this.pctUsuario.TabStop = false;
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -156,7 +156,7 @@
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.pctUsuario);
             this.Controls.Add(this.btnCancelar);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

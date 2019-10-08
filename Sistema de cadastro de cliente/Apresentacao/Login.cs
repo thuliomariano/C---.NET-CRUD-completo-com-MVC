@@ -14,9 +14,9 @@ using Sistema_de_cadastro_de_cliente.Modelo;
 
 namespace Sistema_de_cadastro_de_cliente
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -49,8 +49,10 @@ namespace Sistema_de_cadastro_de_cliente
         {
             if ((txtNome.Text == "admin") && (txtSenha.Text == "123"))
             {
+                this.Visible = false;
                 MenuPrincipal menuPrincipal = new MenuPrincipal(); 
                 menuPrincipal.ShowDialog();
+                Close();
 
             }
             else

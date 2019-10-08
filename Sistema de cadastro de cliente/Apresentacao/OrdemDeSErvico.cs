@@ -16,5 +16,10 @@ namespace Sistema_de_cadastro_de_cliente.Apresentacao
         {
             InitializeComponent();
         }
+
+        private void OrdemDeServico_Load(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

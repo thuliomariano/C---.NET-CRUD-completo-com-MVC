@@ -96,8 +96,8 @@ namespace Sistema_de_cadastro_de_cliente.Apresentacao
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
-          
-        }
+            
+                    }
 
         private void empregadoToolStripMenuItem_Click(object sender, EventArgs e)
         {

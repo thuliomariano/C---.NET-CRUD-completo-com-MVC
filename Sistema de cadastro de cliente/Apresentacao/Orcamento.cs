@@ -16,5 +16,17 @@ namespace Sistema_de_cadastro_de_cliente.Apresentacao
         {
             InitializeComponent();
         }
+
+        private void Orcamento_Load(object sender, EventArgs e)
+        {
+            txtOrcamento.Enabled = false;
+            txtTotal.Enabled = false;
+            
+        }
+
+        private void txtTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
