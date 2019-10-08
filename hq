@@ -1,0 +1,203 @@
+[33mcommit 3eda8e27141c3d826fbb122441e1ec7f7857d090[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 294a310 2d747ea
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 8 09:36:26 2019 -0300
+
+    Merge branch 'develop'
+
+[33mcommit 2d747ea8185334499876f775f96eb37b0f89f4f0[m[33m ([m[1;32mdevelop[m[33m)[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 8 09:33:31 2019 -0300
+
+    Testando alterações no projeto
+
+[33mcommit 294a3103089a74c21b5ea58da53b1062ba31a5b6[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: 163fbf6 d5c939c
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 8 08:57:20 2019 -0300
+
+    Merge branch 'master' of https://github.com/thuliomariano/C---.NET-CRUD-completo-com-MVC
+
+[33mcommit 163fbf6ad10e4cabcc98caf3878e17153a6b310a[m
+Merge: 29548fa e76db09
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 8 08:57:06 2019 -0300
+
+    Alterado modificador de acesso da variavel
+
+[33mcommit e76db09ada67d92f195151dd5f63895ed62e46e3[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 8 08:21:15 2019 -0300
+
+    Alterado modificadores de acesso
+
+[33mcommit d5c939c1361ed9d8c6faf770f28cc97e74249068[m
+Author: Thulio José Mariano <thulio.mariano@gmail.com>
+Date:   Tue Oct 8 08:07:33 2019 -0300
+
+    Update README.md
+
+[33mcommit 29548fa0924ab05ca35413f0562057f1da1154fa[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Oct 7 18:00:04 2019 -0300
+
+    Alterado o form orçamento
+
+[33mcommit 3c8b0c729f22f08235c208e54c1105822d7ea321[m[33m ([m[1;32mrelease[m[33m, [m[1;32mhotfix[m[33m, [m[1;32mfeature[m[33m)[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Oct 7 16:34:33 2019 -0300
+
+    redefinição dos itens inicialmente inseridos, atributos e metodos da classe controle/clienteDal/cliente
+
+[33mcommit cb91e2286aa5da3fbeefa01edda817caf3bfad0d[m
+Merge: f2bba0d 8690e6a
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Oct 7 09:57:58 2019 -0300
+
+    C:\Users\Desenvolvimento2\Documents\Visual Studio 2017\ProjectoMerge branch 'master' of https://github.com/thuliomariano/C---.NET-CRUD-completo-com-MVC
+
+[33mcommit f2bba0d23da5e824a7210889044f26e45c18a597[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Oct 7 09:57:47 2019 -0300
+
+    Criando o front-end de ordem de serviço/Menu principal/compras/vendas
+
+[33mcommit 8690e6accb9e85ac4a2c7953b81d4a2ea356bf06[m[33m ([m[1;33mtag: inicial[m[33m)[m
+Merge: f4666c5 3858999
+Author: Thulio José Mariano <thulio.mariano@gmail.com>
+Date:   Sun Oct 6 00:23:40 2019 -0300
+
+    Implementação dos forms  Registro/Vendas
+
+[33mcommit f4666c55697bcb3ed6be8e637aa6c0404149d8ad[m
+Author: Thulio José Mariano <thulio.mariano@gmail.com>
+Date:   Sun Oct 6 00:16:11 2019 -0300
+
+    Correções no front-end do login
+
+[33mcommit 38589999860e9afa6d19c38e54e1a22579ba0cf9[m
+Author: Thulio José Mariano <thulio.mariano@gmail.com>
+Date:   Sat Oct 5 20:52:58 2019 -0300
+
+    Create README.md
+
+[33mcommit 608c28ffba7d66d7184c1bbb1008774b7cbd34bc[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Wed Oct 2 18:06:19 2019 -0300
+
+    Alterado icones do menu principal
+
+[33mcommit ad562600e284cb527a89cf37b7b2f1acba88b2b6[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Wed Oct 2 17:52:33 2019 -0300
+
+    Add form para setor de vendas/estoque/usuario/funcionario
+
+[33mcommit 7f0f8753451713d90216534b5f90c1e6ecfa85b5[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Wed Oct 2 16:47:23 2019 -0300
+
+    Alteração do front-end da aplicação(setor de vendas)
+
+[33mcommit 8f6766db8c79b4c2e8a2e22e310f266baa4ef78f[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Wed Oct 2 10:54:37 2019 -0300
+
+    Correções de passagem de valores para cadastrar cliente
+
+[33mcommit 3019d92bec8ddebe1dc0ca2df560d5f855e5699a[m
+Author: Thulio José Mariano <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 22:40:23 2019 -0300
+
+    Alterando os dados de entrada para o tipo data
+
+[33mcommit cae3b31cd74001abbe4b90da9cfe7227100bc33d[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 17:51:18 2019 -0300
+
+    Converção de dados tipo date
+
+[33mcommit 0daed4a23706f8abd9d2ced3ee4342f002927254[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 15:53:25 2019 -0300
+
+    Implementado metodo para a classe validação
+
+[33mcommit b716f289f44162305462b66a29018218fab3d5f3[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 15:42:39 2019 -0300
+
+    Atribuição do metodo Cadastrar na camada DAL
+
+[33mcommit 2511297ad63396cecafc2a1694310dd0b078c2c7[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 15:19:12 2019 -0300
+
+    Implementando conversões de mascaras no form cadastro
+
+[33mcommit b96889a0d341a31f2afb3d6b8cabcf2b21381666[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 08:53:19 2019 -0300
+
+    Atribuindo atributos na classe Pessoa
+
+[33mcommit 43809e3e99a22d987aaf96c7c14048693df789b4[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 08:36:28 2019 -0300
+
+    Atribuido valores a clase conexao
+
+[33mcommit 597a021e37d6b4d68992691d9883b3033c673898[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 07:56:55 2019 -0300
+
+    Atribuição de regras de negocio para o name no form cadastro
+
+[33mcommit 016bbc2ac7e7195f364a0d5a3cc6682847e5ef56[m
+Merge: f10f5da c4b3928
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 07:48:59 2019 -0300
+
+    Merge branch 'master' of https://github.com/thuliomariano/C---.NET-CRUD-completo-com-MVC
+
+[33mcommit f10f5da2fe23a8bcd501aa450ced8669a798936e[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 07:47:46 2019 -0300
+
+    Modificações do front end no form cadastro
+
+[33mcommit c4b39288466a3a4237bfb7b6d8b00ab503d3df39[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Tue Oct 1 07:36:49 2019 -0300
+
+    Alterando designer do front usuario
+
+[33mcommit 13e8ffa4acdc299df15e40353fc2b276289a0d79[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 17:48:02 2019 -0300
+
+    Desenvolvendo o front-end do form cadastro de Cliente
+
+[33mcommit 5d921a8edc207987993fc44af2a9405e02967a18[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 13:35:35 2019 -0300
+
+    Criando as camadas MVC
+
+[33mcommit bcde695618f44e132aed356547ea0da75705b61d[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 13:18:02 2019 -0300
+
+    Criando o front-end do form aplication login
+
+[33mcommit 5cf7b6a4c689415ae647dde27a2fd4bfbaebb933[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 09:59:22 2019 -0300
+
+    Adicionar arquivos de projeto.
+
+[33mcommit e5cc575f21a3def26d85947d40b04465ae0ea984[m
+Author: Thulio <thulio.mariano@gmail.com>
+Date:   Mon Sep 30 09:59:18 2019 -0300
+
+    Adicionar .gitignore e .gitattributes.
