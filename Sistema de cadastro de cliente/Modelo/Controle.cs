@@ -19,6 +19,7 @@ namespace Sistema_de_cadastro_de_cliente.Modelo
         public void Cadastrar(Cliente cliente)
         {
             String nome = "thulio";
+            String idade = "joaõ";
         }
 
 
