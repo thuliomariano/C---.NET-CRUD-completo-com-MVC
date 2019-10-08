@@ -1,2 +1,2 @@
-# C---.NET-CRUD-completo-com-MVC
+.NET CRUD completo com MVC
 Registro de clientes
